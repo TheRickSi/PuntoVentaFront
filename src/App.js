@@ -1,10 +1,12 @@
 //import './App.css';
-import Principal from './pages/Principal/Principal';
+import Principal from "./pages/Principal/Principal";
+import NavBarOp from "./shared/NavBarOp";
 
 function App() {
   return (
     <div className="App">
-      <Principal/>
+      <NavBarOp />
+      <Principal />
     </div>
   );
 }
